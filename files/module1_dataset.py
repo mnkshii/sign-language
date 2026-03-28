@@ -15,9 +15,8 @@ import os, json, shutil, random, cv2, numpy as np
 from pathlib import Path
 
 # ── Set credentials (replace with your own) ──────────────────
-os.environ["KAGGLE_USERNAME"] = "YOUR_KAGGLE_USERNAME"
-os.environ["KAGGLE_KEY"]      = "YOUR_KAGGLE_KEY"
-
+os.environ["KAGGLE_USERNAME"] = "heenadanu01"
+os.environ["KAGGLE_KEY"]      = "30630377"
 print("✅ Kaggle credentials set.")
 
 # ─── CELL 2 : Download WLASL dataset ─────────────────────────────────────────
